@@ -1,0 +1,206 @@
+body{
+	text-align:center;
+	background-color:lightseagreen;
+	color:black;
+}
+
+
+nav{
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color:white;
+	height:50px;
+	margin:0px;
+	border-bottom:1px solid navy;
+	border-radius:20px;
+}
+
+a{
+	font-family: 'Alata', sans-serif;
+	font-size:14px; 
+	border: 2px solid grey;
+	color: white;
+	padding:10px;
+	border-radius:10px;
+	background-color:darkslateblue;
+	cursor:pointer; 
+	Position:relative;
+		display:flex;
+
+}
+
+a:hover {
+  color: yellow;
+  background-color:black;
+}
+
+article{
+	margin-right:15%;
+	margin-left:15%;
+}
+
+@media (max-width: 500px){
+	article{
+		margin-right:1%;
+		margin-left:2%;
+	}
+}
+
+header{
+	font-family: 'Overlock', corsivo;
+}
+
+h1{
+	color:white;
+	font-size:2.25em;
+}
+
+span{
+	font-size:28px;
+	font-weight:bold;
+	color:navy;
+}
+
+
+ p{
+	margin-bottom:10px;
+	margin-top:10px;
+	margin-left:50px;
+	margin-right:50px;
+	font-size:20px;
+ }
+
+ol{
+	font-size:30px;
+	display:flex;
+	color:white;
+	flex-direction:column;	
+	justify-content:flex-start;
+	align-items:center;
+	
+}
+
+
+#profilo img{
+	height:50px;
+	width:50px;
+	margin:0px;
+	margin-top:20px;
+}
+
+#profilo h2{
+	margin-top:0px;
+}
+
+footer{
+	display:block;
+	flex-direction:column;
+	color: white;
+	font-weight:bold;
+	align-items:center;
+	font-size:22;
+	height:50px;
+	padding:10px;
+	justify-content:center;	
+
+}
+
+a img{
+	width:20px;
+	height:20px;
+}
+
+
+section{
+	background-color:E0FFFF;
+	margin:50px 270px;
+	height:650px;
+	width:800px;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+	align-items:center;
+	position:relative;
+}
+
+/*section div{
+	flex-direction:row;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}*/
+
+section img{
+	height:60%;
+	width:75%;
+}
+
+section h1{
+	color:black;
+	margin:15px 0px;
+}
+
+section h3{
+	margin:0px;
+	
+}
+
+section h4{
+	margin:0px;
+}
+
+ .intestazione{
+	/*height:50px;*/
+	margin-top:0px;	
+	margin-bottom:0px;
+	width:400px;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	align-items:center;
+}
+
+
+
+
+.frecciav{
+	display:flex;
+	justify-content:center;
+	align-items:flex-end;
+	height:57px;
+	width:57px;
+	margin-right:10px;
+}
+
+.frecciain{
+	display:flex;
+	justify-content:center;
+	align-items:flex-end;
+	height:70px;
+	width:70px;
+}
+
+.freccia{
+	width:790px;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	position:absolute;
+}
+
+section a{
+	font-family: 'Alata', sans-serif;
+	font-size:14px; 
+	border-bottom: 2px solid grey;
+	color: white;
+	margin:10px;
+	border-radius:10px;
+	/*background-color:darkslateblue;*/
+	cursor:pointer; 
+	Position:relative;
+}
+
+.nascondi{
+	display:none;
+}

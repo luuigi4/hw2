@@ -1,0 +1,266 @@
+body{
+	font-family: 'Ubuntu', Helvetica;
+	color: black;
+	background-color:azure;
+	margin:0; 
+}
+
+nav{
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color:white;
+	height:50px;
+	margin-bottom:0px;
+}
+
+a{
+	font-size:14px; 
+	border: 2px solid grey;
+	color: white;
+	padding:10px;
+	border-radius:10px;
+	background-color:darkslateblue;
+	cursor:pointer; 
+	Position:relative;
+	display:flex;
+}
+
+a:hover {
+  color: yellow;
+  background-color:black;
+}
+
+header{
+	height:550px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background-image:url(../img/im.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	position:relative;
+	color:white;
+	z-index:-1;
+}
+
+header h1{
+	font-family: 'Ubuntu', corsivo;
+	font-size:36px;
+	color:white;
+	z-index:1;
+	text-align:center;
+	margin-top:20%;
+}
+
+.overlay {
+  background-color:
+    rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+
+article{
+  display:flex;
+  flex-direction:column;
+  margin-left:15%;
+  margin-right:13%;
+  text-align: center;
+}
+
+@media (max-width: 500px){
+	article{
+		margin-left:0px;
+		margin-right:0px;
+	}
+}
+
+h2{
+	margin-bottom:0;
+	font-size:32px;
+	color:midnightblue;
+	font-family: 'Alata', sans-serif;
+}
+
+.ese{
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-start;
+	align-items:center;
+	margin-top:0px;
+	margin-right:0px;
+}
+
+.ese .intr span{
+	font-style:italic;
+	color:blueviolet;
+	font-weight:bold;
+}
+
+.back span, .back h1{
+	color:navy;
+	font-weight:bold;
+}
+
+.back{
+	height:500px;
+	background-image:url(../img/esp.png);
+	background-repeat:no-repeat;
+	background-position:0;
+	background-size:contain;
+}
+
+.back .contenuto img{
+	margin-left:700px;
+	width:50%;
+}
+
+
+@media (max-width: 500px){
+	.back {
+		display:flex;
+		flex-direction:column;
+		justify-content:center;
+	    align-items:center;
+	}
+	.back .contenuto img{
+		display:none;
+		margin-left:0px;
+	}
+}
+/*'{{url("img/dati.jpg")}}'
+url(img/n.png)*/
+
+.image{
+	background-image:url(../img/n.png);
+	background-repeat	:no-repeat;
+}
+
+
+.sfondo p{
+	margin-bottom:5%;
+}
+
+section .contenuto{
+	display:flex;
+	flex-direction:column;				
+	justify-content:center;
+	align-items:center;
+	margin-bottom:5%;
+}
+
+section{
+	margin:3% 0;
+}
+
+
+.ese img{
+	margin-bottom:5%;
+	width:60%;
+}
+
+
+section img{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width:50%;
+}
+
+.contenuto h1{
+	margin:0;
+	font-size:36px;
+	text-align:center;
+	border-top:2px solid gray;
+	padding:10px;
+}
+
+.image span, .image h1 {
+	color:red;
+	font-weight:bold;	
+	margin-left:5%;
+}
+
+.sfondo h1{
+	color:teal;
+	font-weight:bold;
+	font-size:2.5em;
+}
+
+.sfondo span{
+	color:yellow;
+	font-weight:bold;
+	font-style:italic;
+
+}
+
+.intr{
+	font-size:24px;
+	text-align:left;
+	font-weight:normal;
+	color:black;
+	font-family: 'Roboto', sans-serif;
+}
+
+.ese .intr{
+	margin-left:5%;
+	margin-right:0%;
+}
+
+.sez1{
+	display:flex;
+	justify-content:spare-around;
+	align-content:flex-start;
+}
+
+.logo{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border-top:2px solid gray;
+	padding:10px;
+	margin-top:5%;	
+}
+	
+footer{
+	display:flex;
+	flex-direction:column;
+	background-color: teal;
+	color: white;
+	font-weight:bold;
+	font-family: 'Overlock', corsivo;
+	align-items:center;
+	font-size:22;
+	height:100px;
+	justify-content:center;	
+}
+
+a img{
+	width:20px;
+	height:20px;
+}
+
+#profilo img{
+	height:50px;
+	width:50px;
+	margin:0px;
+	margin-top:20px;
+}
+
+#profilo h2{
+	margin-top:0px;
+}
+
+
+
+
+
+
+
+
+
